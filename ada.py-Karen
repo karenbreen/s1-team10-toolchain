@@ -1,0 +1,6 @@
+ def count_vowels(word):
+   """Return number of vowels in words"""
+   return sum(1 for letter in word.lower() if letter in "aeiou")
+def is_even(n):
+    """Return True if n is an even number."""
+    return n % 2 == 0
