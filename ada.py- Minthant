@@ -1,0 +1,3 @@
+def is_even(n):
+  """retun if number is even"""
+  retun n % 2 == 0
